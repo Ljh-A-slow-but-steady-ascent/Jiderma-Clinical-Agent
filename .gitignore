@@ -1,0 +1,53 @@
+.cache/
+.local/
+.run/
+logs/
+*.log
+*.pid
+*.tmp
+*.cache
+.conda/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*.db
+*.sqlite
+*.sqlite3
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.aws/
+.codex/
+.agents/
+.vscode/
+frontend/node_modules/
+frontend/dist/
+
+# Runtime databases, uploaded cases, and local datasets.
+data/
+
+# Model weights and feature tensors must remain local and must not be redistributed.
+checkpoints/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+
+# Local datasets, upstream archives, and generated feature caches.
+third_party/DermFM-Zero/data/
+third_party/DermFM-Zero/linear_probe.zip
+third_party/_archives/
+artifacts/case_study/
+artifacts/.fuse_hidden*
+
+# Generated archives and operating-system debris.
+*.zip
+*.tar
+*.tar.gz
+*.7z
+.DS_Store
+Thumbs.db

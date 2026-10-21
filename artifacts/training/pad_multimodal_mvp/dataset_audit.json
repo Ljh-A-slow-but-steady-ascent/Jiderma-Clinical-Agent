@@ -1,0 +1,48 @@
+{
+  "split_source": "DermFM-Zero author-provided train.csv/val.csv/test.csv",
+  "split_sizes": {
+    "train": 1838,
+    "val": 230,
+    "test": 230
+  },
+  "class_counts": {
+    "train": {
+      "0": 195,
+      "1": 676,
+      "2": 584,
+      "3": 188,
+      "4": 153,
+      "5": 42
+    },
+    "val": {
+      "0": 25,
+      "1": 84,
+      "2": 73,
+      "3": 24,
+      "4": 19,
+      "5": 5
+    },
+    "test": {
+      "0": 24,
+      "1": 85,
+      "2": 73,
+      "3": 23,
+      "4": 20,
+      "5": 5
+    }
+  },
+  "label_mapping": {
+    "0": "NEV",
+    "1": "BCC",
+    "2": "ACK",
+    "3": "SEK",
+    "4": "SCC",
+    "5": "MEL"
+  },
+  "cross_split_patient_id_overlap": {
+    "train_val": 109,
+    "train_test": 130,
+    "val_test": 21
+  },
+  "split_membership_modified": false
+}

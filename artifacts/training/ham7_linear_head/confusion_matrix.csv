@@ -1,0 +1,8 @@
+target,actinic keratosis,basal cell carcinoma,benign keratosis,dermatofibroma,melanoma,nevus,vascular
+actinic keratosis,30,2,11,0,5,1,0
+basal cell carcinoma,0,71,1,0,2,3,0
+benign keratosis,6,3,136,1,6,13,0
+dermatofibroma,0,1,1,13,1,1,0
+melanoma,3,0,16,2,102,45,0
+nevus,0,2,10,1,20,972,1
+vascular,0,2,0,0,0,1,18

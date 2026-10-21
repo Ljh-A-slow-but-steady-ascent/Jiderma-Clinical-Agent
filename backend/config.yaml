@@ -1,0 +1,6 @@
+rag:
+  top_k: 3
+  evidence_threshold: 0.5
+
+vision:
+  min_quality: 0.4

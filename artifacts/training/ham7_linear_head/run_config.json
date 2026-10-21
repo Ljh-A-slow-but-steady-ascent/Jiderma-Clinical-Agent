@@ -1,0 +1,42 @@
+{
+  "started_at": "2026-10-11T13:57:00.084094+08:00",
+  "command": "scripts/train_dermfm_linear_head.py --device cuda --batch-size 16 --workers 4",
+  "python": "3.9.20 | packaged by conda-forge | (main, Sep 30 2024, 17:49:10) \n[GCC 13.3.0]",
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+  "torch": "2.8.0+cu128",
+  "cuda": "12.8",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "arguments": {
+    "csv": "/media/lu/CE387FD6387FBC51/科研项目/医疗agent/third_party/DermFM-Zero/data/linear_probe/HAM-official-7-lp/meta.csv",
+    "dermfm_repo": "/media/lu/CE387FD6387FBC51/科研项目/医疗agent/third_party/DermFM-Zero",
+    "output_dir": "/media/lu/CE387FD6387FBC51/科研项目/医疗agent/artifacts/training/ham7_linear_head",
+    "batch_size": 16,
+    "workers": 4,
+    "epochs": 500,
+    "patience": 50,
+    "lr": 0.003,
+    "weight_decay": 0.0001,
+    "seeds": [
+      42,
+      123,
+      1000
+    ],
+    "device": "cuda",
+    "refresh_features": false
+  },
+  "split_counts": {
+    "val": 500,
+    "train": 8012,
+    "test": 1503
+  },
+  "class_names": [
+    "actinic keratosis",
+    "basal cell carcinoma",
+    "benign keratosis",
+    "dermatofibroma",
+    "melanoma",
+    "nevus",
+    "vascular"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "age": 65,
+  "gender": "MALE",
+  "region": "FOREARM",
+  "itch": true,
+  "hurt": true,
+  "bleed": true,
+  "grew": null,
+  "changed": null,
+  "diameter_1": 10.0,
+  "diameter_2": 8.0,
+  "skin_cancer_history": false,
+  "cancer_history": false
+}

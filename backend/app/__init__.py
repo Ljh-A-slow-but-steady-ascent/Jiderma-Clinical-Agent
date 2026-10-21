@@ -1,0 +1,1 @@
+"""DermaGuard application package."""
